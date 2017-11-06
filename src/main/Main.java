@@ -15,8 +15,8 @@ public final class Main {
         IShape3D con1 = ShapeFactory.INSTANCE.createCone(new Point3D(2,2,2),5.0d,0.6d);
         System.out.println(con1);
         IShape3D cub1 = ShapeFactory.INSTANCE.createCuboid(new Point3D(2,2,2),5.0d,6.0d, 5.0d);
-        System.out.println(con1);
+        System.out.println(cub1);
         IShape3D sph1 = ShapeFactory.INSTANCE.createSphere(new Point3D(2,2,2),5.0d);
-        System.out.println(con1);
+        System.out.println(sph1);
     }
 }
