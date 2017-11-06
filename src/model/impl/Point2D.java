@@ -24,7 +24,6 @@ public class Point2D {
     }
 
     public double distance(Point2D other) {
-        // sqrt((x-x')^2+(y-y')^2)
         return Math.sqrt(Math.pow(getX() - other.getX(), 2) + Math.pow(getY() - other.getY(), 2));
     }
 

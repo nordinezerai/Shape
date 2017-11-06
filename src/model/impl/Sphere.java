@@ -14,19 +14,22 @@ public class Sphere extends Shape3D {
 
     @Override
     public double volume() {
-        // 4/3 * pi * r^3
         return (4 / 3) * Math.PI * Math.pow(radius, 3);
     }
 
     @Override
     public double surface() {
-        // 4 * pi * r^2
         return 4 * Math.PI * Math.pow(radius, 2);
     }
 
     @Override
     public String toString() {
-        return "I am a sphere "+getRefPoint().toString()+"-"+radius;
+        StringBuilder sb = new StringBuilder();
+        sb.append("Shape type : " + this.getClass().getName()).append(NL)
+                .append(TAB).append("Radius " + this.radius).append(NL)
+                .append(TAB).append("Volume " + volume()).append(NL)
+                .append(TAB).append("Surface " + surface());
+        return sb.toString();
     }
 
 

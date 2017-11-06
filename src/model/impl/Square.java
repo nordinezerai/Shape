@@ -10,13 +10,19 @@ public class Square extends Rectangle {
     }
 
     public double getSize() {
-        // attribut calculé
+
         return this.getWidth();
     }
 
     @Override
     public String toString() {
-        return "I am a square " + getRefPoint().toString() + "-" + getSize();
+        StringBuilder sb = new StringBuilder();
+        sb.append("Shape type : " + this.getClass().getName()).append(NL)
+                .append(TAB).append("Length " + getLength()).append(NL)
+                .append(TAB).append("Width " + getWidth()).append(NL)
+                .append(TAB).append("Perimeter " + perimeter()).append(NL)
+                .append(TAB).append("Surface " + surface());
+        return sb.toString();
     }
 }
 

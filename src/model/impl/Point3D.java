@@ -30,11 +30,9 @@ public class Point3D extends Point2D {
     }
 
     public double distance(Point3D other) {
-        // sqrt((x-x')^2 + (y-y')^2 + (z-z')^2)
         return Math.sqrt(Math.pow(this.getX() - other.getX(), 2)
                 + Math.pow(this.getY() - other.getY(), 2)
                 + Math.pow((this.getZ() - other.getZ()), 2));
-
     }
 
     @Override

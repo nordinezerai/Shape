@@ -16,7 +16,13 @@ public class Rectangle extends Shape2D {
 
     @Override
     public String toString() {
-        return "I am a rectangle " + getRefPoint().toString() + "-" + getLength() + "x" + getWidth();
+        StringBuilder sb = new StringBuilder();
+        sb.append("Shape type : " + this.getClass().getName()).append(NL)
+            .append(TAB).append("Length " + this.length).append(NL)
+            .append(TAB).append("Width " + this.width).append(NL)
+            .append(TAB).append("Perimeter " + perimeter()).append(NL)
+            .append(TAB).append("Surface " + surface());
+        return sb.toString();
     }
 
     @Override

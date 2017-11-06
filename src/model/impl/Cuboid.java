@@ -28,7 +28,14 @@ public class Cuboid extends Shape3D {
 
     @Override
     public String toString() {
-        return "I am a cuboid "+getRefPoint().toString()+"-"+length+"x"+width+"x"+height;
+        StringBuilder sb = new StringBuilder();
+        sb.append("Shape type : " + this.getClass().getName()).append(NL)
+                .append(TAB).append("Length " + this.height).append(NL)
+                .append(TAB).append("Width " + this.width).append(NL)
+                .append(TAB).append("Height " + this.height).append(NL)
+                .append(TAB).append("Volume " + volume()).append(NL)
+                .append(TAB).append("Surface " + surface());
+        return sb.toString();
     }
 
     public double getLength() {
