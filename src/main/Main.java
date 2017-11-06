@@ -12,7 +12,7 @@ public final class Main {
         System.out.println(rec1);
         IShape2D car1 = ShapeFactory.INSTANCE.createSquare(new Point2D(2,2),5);
         System.out.println(car1);
-        IShape3D con1 = ShapeFactory.INSTANCE.createCone(new Point3D(2,2,2),5.0d,0.6d);
+        IShape3D con1 = ShapeFactory.INSTANCE.createCone(new Point3D(2,2,2),5.0d,5.0d);
         System.out.println(con1);
         IShape3D cub1 = ShapeFactory.INSTANCE.createCuboid(new Point3D(2,2,2),5.0d,6.0d, 5.0d);
         System.out.println(cub1);
