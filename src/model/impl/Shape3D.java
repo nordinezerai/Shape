@@ -6,8 +6,8 @@ import model.contract.Translatable3D;
 public abstract class Shape3D extends Shape implements IShape3D, Translatable3D {
     public Point3D refPoint;
 
-    public Shape3D(Point3D rp) {
-        refPoint = rp;
+    public Shape3D(Point3D point3D) {
+        refPoint = point3D;
     }
 
     public abstract double volume();
@@ -17,14 +17,15 @@ public abstract class Shape3D extends Shape implements IShape3D, Translatable3D 
         return refPoint;
     }
 
+
     @Override
-    public void translate(double dx, double dy) {
-        getRefPoint().translate(dx, dy);
+    public void translate(double x, double y) {
+        getRefPoint().translate(x, y);
     }
 
     @Override
-    public void translate(double dx, double dy, double dz) {
-        getRefPoint().translate(dx, dy, dz);
+    public void translate(double x, double y, double z) {
+        getRefPoint().translate(x, y, z);
     }
 }
 

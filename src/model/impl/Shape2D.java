@@ -7,15 +7,15 @@ public abstract class Shape2D extends Shape implements IShape2D, Translatable2D 
 
     private Point2D refPoint;
 
-    public Shape2D(Point2D rp) {
-        this.refPoint = rp;
+    public Shape2D(Point2D point2D) {
+        this.refPoint = point2D;
     }
 
     public abstract double perimeter();
 
     @Override
-    public void translate(double dx, double dy) {
-        getRefPoint().translate(dx, dy);
+    public void translate(double x, double y) {
+        getRefPoint().translate(x, y);
     }
 
     @Override

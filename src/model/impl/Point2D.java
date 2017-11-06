@@ -17,22 +17,22 @@ public class Point2D implements IPoint2D {
     }
 
     @Override
-    public void translate(double dx, double dy) {
-        x = getX() + dx;
-        y = getY() + dy;
+    public void translate(double x, double y) {
+        this.x = getX() + x;
+        this.y = getY() + y;
     }
 
     public boolean isOrigin() {
         return ((getX() == 0) && (getY() == 0));
     }
 
-    public double distance(Point2D other) {
-        return Math.sqrt(Math.pow(getX() - other.getX(), 2) + Math.pow(getY() - other.getY(), 2));
+    public double distance(Point2D point2D) {
+        return Math.sqrt(Math.pow(getX() - point2D.getX(), 2) + Math.pow(getY() - point2D.getY(), 2));
     }
 
     @Override
     public String toString() {
-        return "("+getX()+","+getY()+")";
+        return "( x : "+getX()+", y : "+getY()+")";
     }
 
     public double getX() {

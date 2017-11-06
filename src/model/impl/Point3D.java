@@ -16,10 +16,9 @@ public class Point3D extends Point2D implements IPoint3D {
     }
 
     @Override
-    public void translate(double dx, double dy, double dz) {
-        super.translate(dx, dy);
-
-        z += dz;
+    public void translate(double x, double y, double z) {
+        super.translate(x, y);
+        this.z += z;
     }
 
     @Override
@@ -27,15 +26,15 @@ public class Point3D extends Point2D implements IPoint3D {
         return (super.isOrigin() && (z == 0));
     }
 
-    public double distance(Point3D other) {
-        return Math.sqrt(Math.pow(this.getX() - other.getX(), 2)
-                + Math.pow(this.getY() - other.getY(), 2)
-                + Math.pow((this.getZ() - other.getZ()), 2));
+    public double distance(Point3D point3D) {
+        return Math.sqrt(Math.pow(getX() - point3D.getX(), 2)
+                + Math.pow(getY() - point3D.getY(), 2)
+                + Math.pow((getZ() - point3D.getZ()), 2));
     }
 
     @Override
     public String toString() {
-        return "("+getX()+","+getY()+","+getZ()+")";
+        return "( x : "+getX()+", y : "+getY()+", z : "+getZ()+")";
     }
 
     public double getZ() {
