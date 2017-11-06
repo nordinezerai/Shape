@@ -1,6 +1,8 @@
 package model.impl;
 
-public class Point2D {
+import model.contract.IPoint2D;
+
+public class Point2D implements IPoint2D {
     private double x;
     private double y;
 
@@ -14,6 +16,7 @@ public class Point2D {
         this.y = y;
     }
 
+    @Override
     public void translate(double dx, double dy) {
         x = getX() + dx;
         y = getY() + dy;
@@ -47,5 +50,6 @@ public class Point2D {
     public void setY(double y) {
         this.y = y;
     }
+
 }
 

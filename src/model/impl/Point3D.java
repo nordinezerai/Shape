@@ -1,6 +1,8 @@
 package model.impl;
 
-public class Point3D extends Point2D {
+import model.contract.IPoint3D;
+
+public class Point3D extends Point2D implements IPoint3D {
     private double z;
 
     public Point3D() {
@@ -14,10 +16,6 @@ public class Point3D extends Point2D {
     }
 
     @Override
-    public void translate(double dx, double dy) {
-        super.translate(dx, dy);
-    }
-
     public void translate(double dx, double dy, double dz) {
         super.translate(dx, dy);
 
