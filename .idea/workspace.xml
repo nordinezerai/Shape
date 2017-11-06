@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164ba2a0-3371-431f-bfb2-2749bde132e3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Factory/main/Main.class" afterPath="$PROJECT_DIR$/out/production/Factory/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Factory/model/impl/Cone.class" afterPath="$PROJECT_DIR$/out/production/Factory/model/impl/Cone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Factory/model/impl/Cuboid.class" afterPath="$PROJECT_DIR$/out/production/Factory/model/impl/Cuboid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Factory/model/impl/Point2D.class" afterPath="$PROJECT_DIR$/out/production/Factory/model/impl/Point2D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Factory/model/impl/Point3D.class" afterPath="$PROJECT_DIR$/out/production/Factory/model/impl/Point3D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Factory/model/impl/Rectangle.class" afterPath="$PROJECT_DIR$/out/production/Factory/model/impl/Rectangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Factory/model/impl/Sphere.class" afterPath="$PROJECT_DIR$/out/production/Factory/model/impl/Sphere.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/contract/IShape2D.java" afterPath="$PROJECT_DIR$/src/model/contract/IShape2D.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/impl/Cone.java" afterPath="$PROJECT_DIR$/src/model/impl/Cone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/impl/Sphere.java" afterPath="$PROJECT_DIR$/src/model/impl/Sphere.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +57,18 @@
       <file leaf-file-name="Sphere.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/impl/Sphere.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="-3">
+              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/impl/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,26 +84,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPoint3D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/contract/IPoint3D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPoint2D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/contract/IPoint2D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/contract/IPoint.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,26 +94,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <file leaf-file-name="Cone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/impl/Cone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+            <state relative-caret-position="-153">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cone.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/impl/Cone.java">
+      <file leaf-file-name="Cuboid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/impl/Cuboid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-18">
+              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="37" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/impl/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,13 +161,13 @@
         <option value="$PROJECT_DIR$/src/model/impl/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/model/impl/Square.java" />
         <option value="$PROJECT_DIR$/src/model/impl/Cuboid.java" />
-        <option value="$PROJECT_DIR$/src/model/impl/Sphere.java" />
         <option value="$PROJECT_DIR$/src/model/impl/Point3D.java" />
         <option value="$PROJECT_DIR$/src/model/impl/Point2D.java" />
         <option value="$PROJECT_DIR$/src/model/contract/IPoint.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/model/contract/IShape2D.java" />
         <option value="$PROJECT_DIR$/src/model/impl/Cone.java" />
+        <option value="$PROJECT_DIR$/src/model/impl/Sphere.java" />
       </list>
     </option>
   </component>
@@ -374,7 +377,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509972966863</updated>
-      <workItem from="1509972968395" duration="14619000" />
+      <workItem from="1509972968395" duration="14732000" />
     </task>
     <task id="LOCAL-00001" summary="commit via intelliJ">
       <created>1509985053829</created>
@@ -404,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509995709398</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit via intelliJ">
+      <created>1509996477904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509996477904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14619000" />
+    <option name="totallyTimeSpent" value="14732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="28" width="1157" height="722" extended-state="0" />
@@ -492,14 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/impl/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/impl/Shape2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -520,14 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/impl/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/impl/Point3D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -544,14 +538,6 @@
             <element signature="e#635#636#0" expanded="true" />
             <element signature="e#683#684#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/impl/Cuboid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="37" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,21 +637,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/impl/Sphere.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/impl/Cone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="-153">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#436#437#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/impl/Cuboid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/impl/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/impl/Sphere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/impl/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

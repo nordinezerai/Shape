@@ -14,7 +14,7 @@ public class Sphere extends Shape3D {
 
     @Override
     public double volume() {
-        return (4 / 3) * Math.PI * Math.pow(radius, 3);
+        return (4 / 3.0) * Math.PI * Math.pow(radius, 3);
     }
 
     @Override
