@@ -1,6 +1,7 @@
 package model.factory;
 
 import model.contract.IShape2D;
+import model.impl.Point2D;
 import model.impl.Rectangle;
 
 public final class ShapeFactory {
@@ -9,7 +10,7 @@ public final class ShapeFactory {
 
     private ShapeFactory(){};
 
-    public IShape2D createRectangle(double length, double width){
-        return new Rectangle(length,width);
+    public IShape2D createRectangle(Point2D refPoint, double length, double width){
+        return new Rectangle(refPoint,length,width);
     }
 }
