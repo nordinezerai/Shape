@@ -18,5 +18,6 @@ public final class Main {
         System.out.println(cub1);
         IShape3D sph1 = ShapeFactory.INSTANCE.createSphere(new Point3D(2,2,2),5.0d);
         System.out.println(sph1);
+        
     }
 }
